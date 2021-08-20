@@ -16,6 +16,8 @@ public class ColorButton extends JButton {
 
         super (value);
 
+        setFont(new Font ("helvetica", Font.BOLD, 17));
+
         r = Utility.rand(255);
         g = Utility.rand(255);
         b = Utility.rand(255);

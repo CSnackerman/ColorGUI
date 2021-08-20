@@ -7,14 +7,11 @@ public class GBC_Generator {
     public static GridBagConstraints gbc1() {
         GridBagConstraints gbc = new GridBagConstraints();
 
-//        gbc.anchor = GridBagConstraints.LINE_START;
-        gbc.weightx = 0.3;
+        gbc.weightx = 0;
         gbc.weighty = 0.3;
 
-        gbc.gridwidth = 2;
-        gbc.gridheight = 5;
         gbc.gridx = 0;
-        gbc.gridy = 2;
+        gbc.gridy = 0;
 
         return gbc;
     }
@@ -22,14 +19,13 @@ public class GBC_Generator {
     public static GridBagConstraints gbc2() {
         GridBagConstraints gbc = new GridBagConstraints();
 
-//        gbc.anchor = GridBagConstraints.LAST_LINE_START;
-        gbc.weightx = 0.3;
+
+        gbc.weightx = 0;
         gbc.weighty = 0.3;
 
-        gbc.gridwidth = 2;
-        gbc.gridheight = 5;
+
         gbc.gridx = 0;
-        gbc.gridy = 3;
+        gbc.gridy = 1;
 
         return gbc;
     }
